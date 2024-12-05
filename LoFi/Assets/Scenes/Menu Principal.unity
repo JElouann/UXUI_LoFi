@@ -2435,6 +2435,7 @@ GameObject:
   - component: {fileID: 706793570}
   - component: {fileID: 706793569}
   - component: {fileID: 706793568}
+  - component: {fileID: 706793571}
   m_Layer: 5
   m_Name: cards
   m_TagString: Untagged
@@ -2530,6 +2531,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 706793571}
+        m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
+        m_MethodName: Load
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "Th\xE9o"
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &706793569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2568,6 +2581,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706793566}
   m_CullTransparentMesh: 1
+--- !u!114 &706793571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706793566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cdd20984452d194cb7f093eb73174da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &707531491
 GameObject:
   m_ObjectHideFlags: 0
@@ -5665,6 +5690,7 @@ GameObject:
   - component: {fileID: 1764205239}
   - component: {fileID: 1764205238}
   - component: {fileID: 1764205237}
+  - component: {fileID: 1764205241}
   - component: {fileID: 1764205240}
   m_Layer: 5
   m_Name: shop
@@ -5812,6 +5838,18 @@ CanvasRenderer:
   m_GameObject: {fileID: 1764205235}
   m_CullTransparentMesh: 1
 --- !u!114 &1764205240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764205235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cdd20984452d194cb7f093eb73174da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1764205241
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
